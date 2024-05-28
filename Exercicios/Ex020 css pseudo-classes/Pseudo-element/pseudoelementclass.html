@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*SELETORES PERSONALIZADOS
+        #  = ID
+        .  = CLASS
+        :  = PSEUDO-CLASS
+        :: = PSEUDO-ELEMENT
+        >  = CHILDREN
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red; /*Cor da letra*/
+            text-decoration: none; /*Tira o sublinhado dos links, deixa so as letras*/
+            font-weight: bold; /*Deixa negrito, itálico ou normal*/
+        }
+        a:visited { /*Vai ficar nessa cor se o site foi visitado*/
+            color: darkred;
+        }
+        a:hover { /*Só vai aparecer quando passar o mouse por cima*/
+            color: black;                  
+            text-decoration: underline;
+        }
+        a:active { /*Assim que clicar, ele ficará do jeito que está configurado abaixo*/
+            color: yellow;
+        }
+        a::before { /*Ficará antes da frase/link*/
+            content: '[link]';
+        }
+        a::after { /*A configuração abaixo ficará no final da frase/link*/
+            content: '[link]'; /*conteúdo que será adicionado no final da frase/link*/
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.giithub.io" target="_blank" rel="external">GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Curso em vídeo</a></li>
+    </ul>
+</body>
+</html>

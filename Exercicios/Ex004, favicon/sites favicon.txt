@@ -1,0 +1,4 @@
+favicon.ico
+favicon.cc (Aqui da pra desenhar o proprio icon)
+favicon.io (pode colocar qualquer imagem e baixar ela em varios formatos e tamanhos diferentes, e outras funcionalidades do site)
+iconarchive.com (icon pronto)

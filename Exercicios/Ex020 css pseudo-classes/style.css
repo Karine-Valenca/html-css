@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#h1 {
+    color: black;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.p1:hover {
+    color: white;
+    background-color: black;
+    width: 200px;
+    text-decoration: none;
+}
+.p1::after {
+    content: 'fps';
+    font-weight: lighter;
+}
+.p2 {
+    background-color: yellow;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+.p2:hover {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(1, 1, 59);
+    color: white;
+}
+.p3 {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.p3:hover {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    background-color: rgb(1, 1, 59);
+    color: white;
+}
+
+.a1:hover {
+    color: green;
+}
+

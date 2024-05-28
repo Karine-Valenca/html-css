@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>  
+    <h2>Lista ordenadas(a ordem faz diferença)</h2> 
+    <p>Não precisa de parágrafo, colocar diretamente o ol e depois o li, e pode acrescentar o parâmetro Type para escolher como quer q fique a lista, se quer 1,2,3,4 ou a,b,c, ou numeros romanos, depois utilizando o parâmetro Start para dizer de onde começar a lista, exemplo abaixo no código </p>
+    <ol type="1" start="4">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café da manha</li>
+        <li>Lavar a louça</li>
+        <li>almoçar</li>
+        <li>Lavar louça de novo</li>
+        <li>estudar</li>
+        <li>jantar</li>
+        <li>jogar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas(não tem sequencia)</h2>
+    <p>Usar a tag ul mas permanecer com a Li, usando o parâmetro Type, da pra colocar a lista com bolinha, quadrado, escrevendo Disc, circle, square, essas três opções </p>
+    <ul type="Square" ><!--disc, circle   e square-->
+        <li>Pão</li>
+        <li>Manteiga</li>
+        <li>chocolate</li>
+        <li>Arroz</li>
+    </ul>
+    <h2>Juntando listas versão 1.0</h2>
+    <p>Exemplo:</p>
+    <ol>
+        <li>Jogo favorito antigo</li>
+        <ol type="a">
+            <li>God of war </li>
+                <ul type="circle">
+                    <li>Gow 1</li>
+                    <li>Gow 2</li>
+                    <li>Gow 3</li>
+                    <li>Gow 4</li>
+                </ul>
+            <li>GTA</li>
+                <ul type="circle">
+                    <li>Gta san andreas</li>
+                    <li>Gta Vice City</li>
+                </ul>
+        </ol>
+        <li>jogos favoritos novos</li>
+        <ol type="a" start="4">
+            <li>Gta 5</li>
+            <li>The last of us 2</li>
+            <li>Rainbow six siege</li>
+        </ol>
+    </ol>
+    <h2>Meus video games favoritos</h2>
+    <ol type="1">
+        <li>Playstation</li>
+        <ul  type="circle">
+            <li>Platstation 2</li>
+            <li>Playstation 3</li>
+            <li>Playstation 4</li>
+            <Li>Playstation 5</Li>
+        </ul>
+        <li>Xbox</li>
+        <ul type="circle" >
+            <li>Xbox 360</li>
+            <li>Xbox Series X</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do designe de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
+</body>
+</html>

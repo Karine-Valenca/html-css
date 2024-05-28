@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Graphicloads-Colorful-Long-Shadow-Html-tags.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;   
+        }
+        html {
+            font-size: 16px;
+        }
+        div {
+            font-size: 50px;
+        }
+        p {
+          font-size: 1rem;
+        }
+        /*colocando 1rem, fica de acordo com o size do html. Colocando 1 em, fica de acordo com o size da tag pai Div*/
+        /*se tirar o size da tag pai div, tanto rem como em ficarão de acordo com o size padrão ou o colocado no body ou html8*/
+        /*Medidas relativas: em, ex, rem, vw, vh, %
+          Medidas absolutas: cm, mm, in, px, pt, pc
+          16px=geralmente 1em
+          */
+          h1 {
+            /* Shorthand font
+            -font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 
+          }
+    </style>
+
+
+</head>
+<body>
+    <H1>Trabalhando com fontes</H1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempore minus exercitationem deserunt delectus voluptatum, nihil voluptatem dolorum, et deleniti atque dicta assumenda pariatur. Iure qui tenetur est perspiciatis nulla.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit corrupti maiores soluta dolorum pariatur temporibus illo ullam quasi quisquam, nisi explicabo rem, nostrum iste! Praesentium excepturi minus tempore ipsam.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quas accusantium neque, reprehenderit, consequuntur eos facere architecto voluptatum ipsam modi ab a atque laudantium, earum facilis temporibus fugit perspiciatis tenetur?</p>
+</body>
+</html>

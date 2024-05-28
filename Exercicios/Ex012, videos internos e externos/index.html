@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Graphicloads-Colorful-Long-Shadow-Html-tags.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <H1>Vídeos hospedados localmente</H1>
+    <p>Este vídeo esta hospedado no meu próprio servidor</p>
+    <!--Colocar todos os formatos de vídeo ou até audio pois cada navegador aceita um formato e outro não-->
+    <p>Fazer assim:</p>
+    <video width="500" poster="imagens/paisagem-natural-escura-do-belo-por-do-sol-dourado_379201-4242.png" autoplay loop controls>
+    <!--Width: tamanho do video
+    Controls: mostrar o controle de video, onde clicar para iniciar, aumentar ou diminuir volume e etc
+    Poster: a imagem que ficará de inicio no video, para ficar bonito
+    Autoplay: vai iniciar o vídeo assim que abrir a página
+    Loop: o vídeo vai ficar em looping-->
+       <source src="videos/meuvideo-Copia.ogv" type="video/ogv"> 
+       <source src="videos/meuvideo.mp4" type="video/mp4">
+       <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+       <!--Fazer desse jeito ficará ruim para o cliente pois vai ocorrer muito tráfego de banda, -->
+    </video>
+    <h1>Colocando vídeos do Youtube</h1>
+     <p>Essa é a forma mais rápida e barata para o cliente de colocar vídeos no site</p>
+     <!--Dessa forma o site estará consumindo dados do youtube e não do seu servidor, ficando mais barato para o cliente e mais facil de construir o site-->
+     <iframe width="500" height="280" src="https://www.youtube.com/embed/IBcURp6Uaao?si=iYrg3C92Ld70JBwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     <iframe width="500" height="280" src="https://www.youtube.com/embed/Ea-YNcKBarM?si=4c2s9Z48lDFo2u8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     
+    
+
+</body>
+</html>
