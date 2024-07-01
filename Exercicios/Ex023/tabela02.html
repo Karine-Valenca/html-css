@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(70, 69, 69) ;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead, tfoot {
+            background-color: rgb(70, 69, 69);
+            color: white;
+        }
+
+        tbody > tr:nth-child(2n){ 
+            /*odd: impar
+            even: par
+            2n: numero */
+
+            background-color: lightgray;
+        }
+        
+        td.num {
+            text-align: right;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <Table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 500px;">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </Table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, a. Mollitia nemo harum blanditiis soluta ipsam necessitatibus provident inventore! Tempore?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit ab eos dignissimos quasi, error nobis iste cupiditate quas accusamus inventore ipsam temporibus! Inventore eaque neque nulla? Iure asperiores accusamus at sequi reprehenderit rem explicabo expedita cumque illo distinctio eaque pariatur accusantium similique aperiam ad modi eveniet quae quibusdam officiis quia deserunt dolores culpa, enim qui. Architecto magni mollitia illum! Sapiente nulla minima, blanditiis consectetur architecto accusantium necessitatibus quis quod illum consequatur est dolor recusandae voluptatum beatae, tempora fugiat esse quo voluptatibus velit laudantium. At labore perspiciatis doloremque ex, placeat sit, odit incidunt, nulla velit mollitia aperiam a error sed.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quo quam animi cum. Veritatis, eligendi? Fugiat perspiciatis maxime iure est mollitia deleniti totam aliquam, tempora, optio quos vel in qui? Perferendis velit, aut vel libero blanditiis exercitationem beatae mollitia voluptate unde aspernatur facere. Fugiat quisquam commodi magni laborum omnis! Magnam excepturi laboriosam vitae tenetur suscipit nisi mollitia necessitatibus placeat ad accusamus cupiditate doloribus quas libero impedit illum nihil, molestiae dignissimos eligendi maiores, odit atque. Perferendis delectus suscipit adipisci? Iste at ducimus explicabo ipsa. Ipsam hic voluptatem odio atque necessitatibus, at error molestias sequi eveniet ullam aspernatur! Expedita nemo corporis explicabo cumque vel dicta hic rem fuga odio. Id facere impedit, dolore nam temporibus asperiores amet ducimus magnam? Eos itaque quam id, porro odit commodi praesentium cum enim eaque pariatur reprehenderit. Aliquam cupiditate vero placeat possimus fugiat exercitationem doloremque tempore nulla natus, eum minus sapiente autem praesentium quisquam animi quasi laudantium aspernatur quidem quo consequuntur, recusandae soluta? Facere aspernatur explicabo, est quo quas modi corrupti sit asperiores repudiandae magnam, quisquam odio? Quia vitae voluptatibus quibusdam optio quas id consectetur eos esse dolor iste tempora atque fugiat exercitationem veniam possimus illo perferendis aliquid cumque, modi earum unde quam. Consectetur architecto ex vero similique illum omnis, nemo exercitationem reiciendis sapiente necessitatibus doloribus iusto sint enim, laboriosam nihil obcaecati velit eius officia id. Fugit nulla, unde, dignissimos perspiciatis aperiam cumque corporis illo asperiores amet cum molestias aut dolor esse blanditiis vitae optio quo excepturi incidunt alias! Dolorem laboriosam delectus cum quod ducimus aliquam natus illo nesciunt dolor ratione fugit, accusamus reiciendis adipisci cupiditate et inventore ipsa. Officia enim cum, in distinctio mollitia vel obcaecati magni velit, nemo sapiente amet minus unde neque molestias. Neque deserunt nihil, sit fugiat quaerat ullam nulla voluptates cum harum ex minus dolorem praesentium laborum eaque non, magni perspiciatis doloribus!</p>
+</body>
+</html>
