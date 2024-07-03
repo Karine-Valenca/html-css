@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Exercicío de tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption{
+            font-weight: bolder;
+            font-size: 1.3em;
+            padding: 8px;
+        }
+        tr, th, td {
+            padding: 8px;
+            border: 1px solid black;
+        }
+        col.cnome {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicío de tabela </h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>Feminino</td>
+            <td>20</td>
+            <td>Publicitária</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>Feminino</td>
+            <td>28</td>
+            <td>Escritora</td>
+        </tr>
+        <tr>
+            <td>Fernando</td>
+            <td>Masculino</td>
+            <td>35</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>Masculino</td>
+            <td>19</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Henrique</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Desenvolvedor</td>
+        </tr>
+        <tr>
+            <td>Vicente</td>
+            <td>Masculino</td>
+            <td>25</td>
+            <td>Empresário</td>
+        </tr>
+
+    </table>
+</body>
+</html>
